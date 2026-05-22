@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+
+  /* BODY PADDING */
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  font-family: Arial, sans-serif;
+
+  /* BACKGROUND COLOR */
+  background-color: #e8f5e9;
+}
+
+/* HEADER */
+.header {
+  height: 220px;
+
+  /* COLOR CHANGE */
+  background: linear-gradient(to right, #1b5e20, #66bb6a);
+
+  border-radius: 10px;
+
+  /* LEFT BORDER */
+  border-left: 12px solid #0d3b12;
+
+  /* MARGIN */
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+
+  /* PADDING */
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+/* FORM CONTAINER */
+.container {
+  width: 700px;
+  background-color: white;
+
+  /* LEFT BORDER */
+  border-left: 10px solid #34a853;
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+
+  /* MARGIN */
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+
+  /* PADDING */
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+/* HEADING */
+h1 {
+  color: #1b5e20;
+
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+
+/* PARAGRAPH */
+p {
+  color: #555;
+
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+
+/* LABEL */
+label {
+  display: block;
+  font-size: 18px;
+  color: #2e7d32;
+
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+
+/* INPUT BOX */
+input,
+select,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+
+  /* COLOR CHANGE */
+  background-color: #f9fff9;
+
+  border: none;
+  border-bottom: 2px solid #4caf50;
+  outline: none;
+
+  font-size: 16px;
+
+  /* LEFT BORDER */
+  border-left: 5px solid #81c784;
+
+  /* PADDING */
+  padding-top: 12px;
+  padding-right: 15px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+
+  /* MARGIN */
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+/* TEXTAREA */
+textarea {
+  height: 100px;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+
+  /* COLOR CHANGE */
+  background-color: #2e7d32;
+  color: white;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-size: 18px;
+
+  /* LEFT BORDER */
+  border-left: 6px solid #1b5e20;
+
+  /* PADDING */
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+
+  /* MARGIN */
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
